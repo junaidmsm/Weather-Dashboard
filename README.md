@@ -1,1 +1,1 @@
-# Weather-Dashboard
+Using the 5 Day Weather Forecast API, we will need to pass in coordinates instead of just a city name. Using the OpenWeatherMap APIs, we can retrieve geographical coordinates given a city name and get a 5 day weather forecast, in order for us to plan a trip accordingly.

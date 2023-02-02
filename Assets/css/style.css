@@ -1,9 +1,9 @@
-/* add default's to weppage */
+/* add default's to webpage */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 70%;
 }
 
 /* used to help determine layout */
@@ -16,14 +16,15 @@
 }
 
 .container {
-    width: 80%;
+    width: 5%;
     margin: 0 auto;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    width:100%;
+    width: 62.5;
+    
 }
 
 .col1 {
@@ -171,7 +172,7 @@ h3 {
 
 /* style the .card-body */
 .card-body {
-    background-color:#00334d;
+    background-color:powderblue;
     
     padding-left: 4%;
     padding-top: 4%;
@@ -198,8 +199,8 @@ p {
 }
 
 .current{
-    margin: 5%;
-    padding: 5%;
+    margin: 2%;
+    padding: 2%;
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -232,15 +233,15 @@ p {
     }
 
     .col2 {
-        width: 100%;
+        width: 30%;
     }
 
     .col3 {
-        width: 100%;
+        width: 30%;
     }
 
     #current-weather {
-        height: 20%;
+        height: 80%;
         margin: 0 auto;
         text-align: center;
         margin-top: 2rem;
@@ -252,7 +253,7 @@ p {
     }
 
     .card-body {
-        background-color: #00334d;
+        background-color: powderblue;
         height: 20rem;
         padding-left: 0;
         padding-top: 1%;
@@ -292,3 +293,4 @@ p {
     }
 
 }
+

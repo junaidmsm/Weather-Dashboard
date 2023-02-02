@@ -23,6 +23,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    width:100%;
 }
 
 .col1 {
@@ -171,13 +172,13 @@ h3 {
 /* style the .card-body */
 .card-body {
     background-color:#00334d;
-    height: 20rem;
+    
     padding-left: 4%;
     padding-top: 4%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 /* style the weather details in the .card-body */
@@ -190,6 +191,15 @@ p {
 #five-day-header {
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+.size{
+    width:20%;
+}
+
+.current{
+    margin: 5%;
+    padding: 5%;
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
